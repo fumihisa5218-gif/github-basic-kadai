@@ -1,1 +1,8 @@
-
+   1 git init
+   4  echo "Hello, world!" >> hello_world.txt
+   7 git add .\hello_world.txt
+   8 git commit -m　"tet.追加"
+   9 echo "こんにちは、世界！" >> hello_world.txt
+  10 git add .\hello_world.txt
+  11 git commit -m "日本語追加"
+  12 git log --oneline
